@@ -28,11 +28,11 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@master
         with:
-          node-version: 14.x
+          node-version: 14.17.1
 
       - name: Install dependencies
         run: npm install
-        
+
       - name: Build page
         run: npm build
         env:
@@ -41,5 +41,5 @@ jobs:
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
