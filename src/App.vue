@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="테스트 성공" />
+    <img alt="Vue logo" src="./assets/heejin.jpeg" />
+    <Main msg="Heejin 홈페이지 입니다" />
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Main from "./components/Main.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Main,
   },
 };
 </script>
