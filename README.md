@@ -1,24 +1,7 @@
 # huijin-page
 
-## Project setup
-```
-npm install
-```
+Hi guys!
+This page hasn't been wrote yet :)
+It's gonna be filled with my portfolio!
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### https://huijiny.github.io/huijin-page/
